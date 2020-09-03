@@ -36,6 +36,7 @@
   content: '·';
   display: inline-block;
   margin: 0 8px;
+ 
 }
 
 .w-path-card__info-listitem--category {
@@ -91,4 +92,42 @@
   color: #5f6368;
   font: inherit;
   margin: 16px 0;
+}
+
+/* card work */
+.w-path-card2 {
+  padding: 24px;
+
+}
+.w-path-card__info2 {
+  margin-bottom: 1rem;
+}
+
+.w-path-card__info2::before {
+  background-color: #ff7043;
+  content: '';
+  display: block;
+  height: 2px;
+  width: 64px;
+}
+
+
+.w-path-card__info-listitem2 {
+  color: #5f6368;
+  display: block;
+  float: left;
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.w-path-card__info-listitem::after {
+  content: '·';
+  display: inline-block;
+  margin: 0 8px;
+ 
+}
+
+.w-path-card__info-listitem--category2 {
+  color: #ff7043;
+  font-weight: 500;
 }
