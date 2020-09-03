@@ -1,3 +1,6 @@
+h1{
+  font-family: 'Open Sans'; 
+}
 .text-center {
   text-align: center;
 }
@@ -129,9 +132,9 @@ canvas {
   line-height: 90px;
   text-indent: 0;
   font-size: 25px;
-  font-family: Verdana, Arial, sans-serif;  text-align: center;
+  font-family: 'open Sans', sans-serif;  
+  text-align: center;
   content: '';
-
 }
 
 @keyframes morph{
