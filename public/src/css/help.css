@@ -1,0 +1,32 @@
+
+.mdl-button {
+  margin: 10px;
+}
+.mdl-layout__header {
+  background-color: #fff;
+}
+body{
+  background-color: #fff;
+}
+.mdl-layout__header-row{
+color: black;
+}
+.mdl-layout__header-row .mdl-navigation__link{
+  color: black;
+}
+.mdl-layout__header-row .mdl-navigation__link:hover{
+  background-color:#f8f9fa;
+ 
+}
+.mdl-layout__header .mdl-layout__drawer-button i {
+  color: #000;
+}
+.mdl-layout__drawer{
+  background-color:#fff;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link{
+  color: #000;
+}
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover{
+  background-color:#f8f9fa;
+}

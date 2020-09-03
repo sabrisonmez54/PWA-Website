@@ -1,0 +1,77 @@
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 50px;
+    margin: 0px;
+ 
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+.col:hover {  
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    transition: all 0.7s cubic-bezier(.25,.8,.25,1);}
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF THREE  */
+.span_3_of_3 { width: 100%; }
+.span_2_of_3 { width: 66.13%; }
+.span_1_of_3 { width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 600px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
+}
+  /* .w-grid {
+    padding: 0 0 32px;
+  
+    @media (max-width: 380px) {
+      padding: 0 0 64px;
+    }
+  
+    @media only screen and (max-width: 600px)  {
+      padding: 0 32px 64px;
+    }
+  }
+  .w-grid__columns {
+    -webkit-box-align: stretch;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    display: grid;
+    flex-flow: row wrap;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    max-width: 512px;
+  }
+  
+  .w-grid__columns--gapless {
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+  }
+
+
+  .w-grid__columns--two {
+    
+      grid-template-columns: 1fr 1fr;
+      max-width: 960px;
+    
+  }
+  
+  .w-grid__columns--three {
+    
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 1320px;
+    
+  } */
