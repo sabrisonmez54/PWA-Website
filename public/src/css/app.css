@@ -1,6 +1,11 @@
 h1{
   font-family: 'Open Sans'; 
 }
+  
+a:hover {
+  text-decoration: line-through;
+}
+
 @media screen and (max-width: 680px) {
   .description {
     min-width: 100%;
@@ -253,12 +258,12 @@ footer .ball {
 	border-radius: 50%;
 	background-color: #00796b;
 	position: absolute;
-	animation: up 6s cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite;
+	animation: up 8s cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite;
 }
 
 @media only screen and (max-width: 700px) {
 	footer .ball {
-		animation: up-small 6s cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite;
+		animation: up-small 5s cubic-bezier(0.18, 0.89, 0.32, 1.28) infinite;
 	}
 }
 

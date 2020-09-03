@@ -1,13 +1,20 @@
 
-var card = document.querySelector('#card1')
+var pwa = document.querySelector('#pwa')
+pwa.addEventListener('click', pwaClick)
+var strongarm = document.querySelector('#strongarm')
+strongarm.addEventListener('click', strongarmClick)
 
+function pwaClick() {
 
-
-function cardclickHandler() {
-
-    window.location.replace("/pwa");
+    window.location.assign("/pwa");
     //openCreatePostModal()
 }
 
-card1.addEventListener('click', cardclickHandler)
+
+function strongarmClick() {
+
+    window.location.assign("/sat");
+    //openCreatePostModal()
+}
+
 
