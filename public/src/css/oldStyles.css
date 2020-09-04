@@ -26,6 +26,14 @@ body {
     padding: 0px;
     overflow-x: hidden;
   }
+  .body3{
+    background-color: #fff;
+    font-family: 'Open Sans';
+    color: black;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
   html {
     scroll-behavior: smooth;
     margin: 0px;
@@ -183,8 +191,9 @@ body {
   .container {
     max-width: 1100px;
     margin: auto;
-    padding: 0 5rem;
-    overflow: hidden;
+    padding: 0 ;
+    /* overflow: hidden; */
+    height: 100vh;
   }
   
   .text-center {
@@ -448,7 +457,7 @@ body {
     .experience p {
       text-align: left;
     }
- 
+    
   }
   
   /* Education Block */
@@ -468,6 +477,7 @@ body {
     .flexbox-container{
         flex-direction: column;
     }
+    .gif{ width:150%}
   }
   
   /* rain */

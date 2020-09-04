@@ -36,9 +36,47 @@ color: black;
 .flexbox-container{
   display: flex; flex-direction: column-reverse;
 }
-@media screen and (min-width: 40em) {
+@media screen and (max-width: 40em) {
 
   .flexbox-container{
       flex-direction: column;
   }
+  .left-half{
+    display: none;
+  }
 }
+/* Pattern styles */
+.container {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  min-width: 100vw;
+}
+.containerhelp {
+  min-width: 100vw;
+  margin: auto;
+  padding: 0;
+  /* overflow: hidden; */
+}
+
+.left-half {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/src/images/Charge\ Forward.jpg");
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: 40% 0;
+  flex: 1;
+  padding: 1rem;
+}
+
+.right-half {
+  
+  flex: 2;
+  padding: 1rem;
+}
+ 
