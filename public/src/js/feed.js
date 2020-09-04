@@ -5,6 +5,8 @@ var strongarm = document.querySelector('#strongarm')
 strongarm.addEventListener('click', strongarmClick)
 var numbersense = document.querySelector('#numbersense')
 numbersense.addEventListener('click', numbersenseClick)
+var elektra = document.querySelector('#elektra')
+elektra.addEventListener('click', elektraClick)
 
 function pwaClick() {
 
@@ -25,4 +27,10 @@ function numbersenseClick() {
     //openCreatePostModal()
 }
 
+
+function elektraClick() {
+
+    window.location.assign("/elektra");
+    //openCreatePostModal()
+}
 

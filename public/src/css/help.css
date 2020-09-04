@@ -7,6 +7,7 @@
 }
 body{
   background-color: #fff;
+  overflow:hidden;
 }
 .mdl-layout__header-row{
 color: black;
@@ -29,4 +30,15 @@ color: black;
 }
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link:hover{
   background-color:#f8f9fa;
+}
+
+
+.flexbox-container{
+  display: flex; flex-direction: column-reverse;
+}
+@media screen and (min-width: 40em) {
+
+  .flexbox-container{
+      flex-direction: column;
+  }
 }

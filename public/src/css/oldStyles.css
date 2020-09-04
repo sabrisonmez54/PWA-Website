@@ -7,10 +7,21 @@ body {
     padding: 0px;
     overflow-x: hidden;
   }
+  .flexbox-container{
+    display: flex; flex-direction: row;
+  }
   .body2{
     background-color: #f4f4f4;
     font-family: 'Open Sans';
     color: black;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  .bodyElektra{
+    background-color: #ebeaf7;
+    font-family: 'Open Sans';
+    color: #020066;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -437,6 +448,7 @@ body {
     .experience p {
       text-align: left;
     }
+ 
   }
   
   /* Education Block */
@@ -452,6 +464,9 @@ body {
   @media screen and (min-width: 40em) {
     .education {
       width: 70%;
+    }
+    .flexbox-container{
+        flex-direction: column;
     }
   }
   
