@@ -26,6 +26,14 @@ body {
     padding: 0px;
     overflow-x: hidden;
   }
+  .bodyecho{ 
+    background-color: #012D63;
+    font-family: 'Open Sans';
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
   .body3{
     background-color: #fff;
     font-family: 'Open Sans';
@@ -193,7 +201,7 @@ body {
     margin: auto;
     padding: 0 ;
     /* overflow: hidden; */
-    /* height: 100vh; */
+    height: 100vh;
   }
   
   .text-center {
@@ -270,6 +278,10 @@ body {
   }
   
   .gif {
+    width: 25%;
+    border-radius: 15px;
+  }
+  .javagif{
     width: 40%;
     border-radius: 15px;
   }
@@ -470,7 +482,7 @@ body {
     margin: 0 auto;
   }
   
-  @media screen and (min-width: 40em) {
+  @media screen and (max-width: 40em) {
     .education {
       width: 70%;
     }
@@ -478,6 +490,10 @@ body {
         flex-direction: column;
     }
     .gif{ width:150%}
+    .javagif{
+      width: 110%;
+      
+    }
   }
   
   /* rain */

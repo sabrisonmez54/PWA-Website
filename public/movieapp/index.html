@@ -19,7 +19,6 @@
 
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="/src/css/mobile.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
 
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -38,7 +37,7 @@
     <meta name="theme-color" content="#3f51b5">
 </head>
 
-<body>
+<body class="body2">
 
     <div id="app">
         <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
@@ -51,6 +50,7 @@
                     <!-- Navigation. We hide it in small screens. -->
                     <nav class="mdl-navigation mdl-layout--large-screen-only">
                         <a class="mdl-navigation__link" href="/">Home</a>
+                        <a class="mdl-navigation__link" href="/resume">Resume</a>
                         <a class="mdl-navigation__link" href="/help">Contact Me</a>
                         <!-- <div class="drawer-option">
             <button class="enable-notifications mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-color--accent">
@@ -64,6 +64,7 @@
                 <span class="mdl-layout-title">SabriUmut.com</span>
                 <nav class="mdl-navigation">
                     <a class="mdl-navigation__link" href="/">Home</a>
+                    <a class="mdl-navigation__link" href="/resume">Resume</a>
                     <a class="mdl-navigation__link" href="/help">Contact Me</a>
                     <!-- <div class="drawer-option">
           <button class="enable-notifications mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-color--accent">
@@ -72,58 +73,49 @@
         </div> -->
                 </nav>
             </div>
-            <main class="mdl-layout__content mat-typography" style="padding: 0px">
-                <div class="container">
-                    <!--Experience Tables-->
-                    <section class="experience">
-                        <div class="row">
-                            <div class="grid-2">
-                                <img src="/src/images/StrongArm_Logo.svg">
-                                <h1 style="width:100%">Engineering Intern </h1>
+            <main class="mdl-layout__content mat-typography" style="padding: 50px">
 
-                                <p>January 2020 - June 2020</p>
-                            </div>
-                            <div class="grid-3">
-                                <ul>
-                                    <li>StrongArm is the world’s leading safety science company, capturing, analyzing
-                                        and
-                                        delivering actionable insights that drive worker safety and enterprise value.
-                                        Utilizing
-                                        complex smart sensors and machine learning StrongArm can effectively develop,
-                                        manufacture and deploy the next generation of industrial safety equipment.
-                                    </li>
+                <div class="mdl-grid">
 
-                                    <img src="/src/images/react-logo.svg" class="App-logo" alt="">
-                                    <li>
-                                        As part of the engineering team, using React.JS, I participated in building and
-                                        putting
-                                        into production a major client facing external dashboard that gives managers at
-                                        warehouses a to manage their industrial athletes on the FUSE Risk Management
-                                        Platform.
-                                    </li>
+                    <!-- Section: Projects-->
 
-                                    <img src="/src/images/dd_logo_h_white.png" width='85%' height="85%"
-                                        style="margin: 4%;">
-                                    <li>
-                                        For the second project through R&D formulated a way for the company to stay
-                                        ahead of
-                                        the
-                                        curve by creating DataDog integrations with the Airwatch API to monitor device
-                                        health of
-                                        tablets deployed and alert the system (opsgenie integrated) when there is a
-                                        malfunction.
-                                    </li>
-                                </ul>
+                    <div id="items" class="items">
+                        <div class="item">
+                            <div>
+                                <div class="projectDesc">
+                                    <h3>Android Movie App </h3>
+                                    <p>As my first real Android Studio Project, working with a group of 4, we decided create an app that best displayed all the various skills we picked up in my one month summer course of Android Programming. This is an app that
+                                        shows the user the latest movies. You can browse movies and check out details about your selected movie. </p>
+                                    <br>There are a variety of useful settings: night mode, large text, nickname, and favorite genre. User can add new movies using the fab icon with title and description of a movie of interest. User can add title and description
+                                    of a movie of interest. User can select settings from dropdown menu. Also user settings persist even when the app is killed.
+                                </div>
+                                </div>
+                                <div class="image-container">
+                                    <div class="inner-container">
+                                        <IMG class="gif" SRC="/src/images/MovieApp2.gif">
+                                        <div class="inner-container2">
+                                            <img src="/src/images/android.png" class="symbol-image" alt="" style="margin:2%">
+                                            <p class="tech"> I authored the R​oom​ D​atabase​ with movie data. Provided direct access to the underlying database implementation using D​AO​ classes. Used C​ardViews​ to display information, as well as ​Swipe​​Gestures​ to delete
+                                                entries from database, and a ​FAB​ icon to add movies to it.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                </p>
                             </div>
                         </div>
-                    </section>
+        
+                    </div>
+
                 </div>
+
             </main>
 
         </div>
     </div>
 
-    <script defer src="/src/js/material.min.js"></script>
+
+    <script defer src=" /src/js/material.min.js"></script>
 
     <script src="/src/js/app.js"></script>
 </body>
