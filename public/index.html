@@ -119,7 +119,8 @@
 
         <!-- grid cards -->
         <p class="description">
-          <span style="font-size: x-large; ">Hi!</span> My name is Sabri Umut Sönmez and I am an aspiring Software
+          <span style="font-size: x-large; padding:20px; ">Hi!</span> My name is Sabri Umut Sönmez and I am an aspiring
+          Software
           Engineer. I am currently a junior at the Macaulay Honors College (CUNY) pursuing a Computer Science degree
           with a minor in Mathematics.
           I work part time as a tutor on campus, and I am involved in many of the developer and hackathon events that
@@ -127,8 +128,39 @@
           full-stack mobile
           and web developer. I have created this website to function as my e-portfolio and an outlet to express myself.
         </p>
+        <div style="padding: 50px">
+          <h1 style='font-family: Open Sans; font-weight: bolder;'>Projects and Work Experience</h1>
+          <h4 style='font-family: Open Sans; font-weight: normal;'>Click on each card to learn more.</h4>
+        </div>
+        <div class="section group">
+          <div class="col span_3_of_3">
+            <div class="w-path-card2">
+              <div class="w-path-card__info2">
+                <ul class="w-path-card__info-list">
+                  <li class="w-path-card__info-listitem w-path-card__info-listitem--category2">
+                    Work
+                  </li>
+                  <li class="w-path-card__info-listitem w-path-card__info-listitem--more-info">
+                    Experience
+                  </li>
 
-        <h1 style='padding: 50px; font-family: Open Sans; font-weight: bolder;'>Projects and Work Experience:</h1>
+                </ul>
+              </div>
+              <div class="w-path-card__desc">
+                <h2 class="w-path-card__headline">BMW Manufacturing Co., LLC</h2>
+              </div>
+              <div class="w-path-card__cover_gray">
+                <img class="w-path-card__cover-image" src="/src/images/bmw-logo-light.svg" alt="" loading="lazy">
+              </div>
+              <div class="w-path-card__desc">
+                <p class="w-path-card__subhead">
+                  I am currently interning at BMW as a Mobile Apps and Services Test Engineer
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="section group">
           <div class="col span_1_of_3">
             <div class="w-path-card" id='pwa'>
@@ -189,8 +221,8 @@
             </div>
           </div>
           <div class="col span_1_of_3">
-            <div class="w-path-card">
-              <div class="w-path-card__info" id="numbersense">
+            <div class="w-path-card" id="numbersense">
+              <div class="w-path-card__info">
                 <ul class="w-path-card__info-list">
                   <li class="w-path-card__info-listitem w-path-card__info-listitem--category">
                     Personal
@@ -357,7 +389,7 @@
                 <h2 class="w-path-card__headline">EchoAR</h2>
               </div>
 
-              <div class="w-path-card__cover_dark">
+              <div class="w-path-card__cover_blue">
                 <img style="  position: relative;
                 margin: auto;
                 top: 25%;
@@ -409,28 +441,30 @@
         <footer>
           <footer>
             <div class="gooey-animations"></div>
-            
+
           </footer>
-          
+
           <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
             <defs>
               <filter id="goo">
                 <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur" />
-                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 15 -7" result="goo" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 15 -7"
+                  result="goo" />
                 <feBlend in="SourceGraphic" in2="goo" />
               </filter>
             </defs>
           </svg>
-          
-          
+
+
           <svg viewbox="0 0 1440 328" width="100vw">
-              <defs>
-                  <clipPath id="wave" clipPathUnits="objectBoundingBox" transform="scale(0.00069444444, 0.00304878048)">
-                      <path d="M504.452 27.7002C163.193 -42.9551 25.9595 38.071 0 87.4161V328H1440V27.7002C1270.34 57.14 845.711 98.3556 504.452 27.7002Z"/>
-                  </clipPath>
-              </defs>
+            <defs>
+              <clipPath id="wave" clipPathUnits="objectBoundingBox" transform="scale(0.00069444444, 0.00304878048)">
+                <path
+                  d="M504.452 27.7002C163.193 -42.9551 25.9595 38.071 0 87.4161V328H1440V27.7002C1270.34 57.14 845.711 98.3556 504.452 27.7002Z" />
+              </clipPath>
+            </defs>
           </svg>
-          
+
         </footer>
 
     </div>

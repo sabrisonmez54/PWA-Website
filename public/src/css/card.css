@@ -64,6 +64,7 @@
   margin: 0 0 1.3rem;
   overflow: hidden;
   text-align: center;
+  border-radius:5px;
 }
 .w-path-card__cover_dark{
   background-color: #1F1A24;
@@ -72,6 +73,25 @@
   margin: 0 0 1.3rem;
   overflow: hidden;
   text-align: center;
+  border-radius:5px;
+}
+.w-path-card__cover_blue{
+  background-color: #012D63;
+  border: 1px solid #1F1B24;
+  height: 208px;
+  margin: 0 0 1.3rem;
+  overflow: hidden;
+  text-align: center;
+  border-radius:5px;
+}
+.w-path-card__cover_gray{
+  background: linear-gradient(90deg, rgba(134,133,134,1) 0%, rgba(166,165,166,1) 35%);;
+  border: 1px solid #dadce0;
+  height: 208px;
+  margin: 0 0 1.3rem;
+  overflow: hidden;
+  text-align: center;
+  border-radius:5px;
 }
 
 .w-path-card__cover-image {

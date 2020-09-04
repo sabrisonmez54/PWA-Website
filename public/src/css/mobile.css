@@ -1,0 +1,153 @@
+/* Smartphones */
+
+@media (max-width: 680px) {
+  #wrapper {
+    margin-top: 0;
+  }
+  .nav {
+    position: relative;
+    margin-left: -70;
+  }
+  #navbar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+  #navbar ul {
+    padding: 0.5rem;
+  }
+  .canvas {
+    display: none;
+    margin-left: -18%;
+    margin-top: 15%;
+    width: 40%;
+    background-color: transparent;
+    border-radius: 50%;
+  }
+  .descImg {
+    margin-top: -50%;
+    margin-left: 0;
+    background-color: transparent;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60%;
+  }
+  .homeLogo {
+    display: block;
+    margin-top: 0;
+    margin-left: 25%;
+    margin-bottom: 15%;
+  }
+  .image2 {
+    display: none;
+    background-color: transparent;
+    margin-bottom: 30%;
+    height: 30%;
+    width: 100%;
+    margin-left: 50%;
+  }
+  .m-heading {
+    text-align: center;
+    margin-left: 0;
+  }
+  .git {
+    text-align: center;
+    margin-left: 0;
+    width: 95%;
+  }
+  .inner-container {
+    width: 110%;
+    margin-left: -50;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .inner-container2 {
+    margin-left: -50;
+    margin-top: 5%;
+    flex-direction: column;
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+    align-content: left;
+  }
+  .inner-container3 {
+    width: 110%;
+    margin-left: 0;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .inner-container4 {
+    margin-left: 0;
+    margin-top: 5%;
+    flex-direction: column;
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+    align-content: left;
+  }
+  .projectDesc {
+    
+    width: 110%;
+  }
+  .container {
+    margin-left: 0;
+    width: 75%;
+  }
+  .who-text {
+    background: transparent;
+  }
+  .text-primary {
+    color: white;
+  }
+  .gif1 {
+    width: 100%;
+    margin-left: -50;
+  }
+  .gif {
+    margin-left: -50;
+    width: 100%;
+  }
+  .grid-1 {
+    width: 16.6666666%;
+  }
+  .grid-2 {
+    margin-left: -30;
+    width: 100%;
+  }
+  .grid-3 {
+    width: 100%;
+  }
+  .grid-4 {
+    margin-left: -60;
+    width: 110%;
+  }
+  .grid-5 {
+    margin-left: -70;
+    width: 83.3333333%;
+  }
+  .grid-6 {
+    width: 100%;
+  }
+  .grid-7 {
+    width: 100%;
+    margin-left: -60;
+  }
+  .experience h2,
+  .experience p {
+    margin-left: -30;
+    margin-right: 0;
+    width: 100%;
+    text-align: left;
+  }
+  .education {
+    width: 100%;
+  }
+  .center {
+    width: 100%;
+    margin-left: -60;
+  }
+}
