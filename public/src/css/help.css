@@ -98,7 +98,7 @@ footer {
   padding-bottom: 3rem;
   justify-content: center;
   overflow: hidden;
-  height: 500px;
+  height: 275px;
   width: 100%;
 
   filter: url("#goo");
@@ -150,10 +150,13 @@ footer::after {
   background-color: #00796b;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 960px) {
   footer::after {
     clip-path: none;
     height: 150px;
+  }
+  footer {
+    height: 200px;
   }
 }
 
