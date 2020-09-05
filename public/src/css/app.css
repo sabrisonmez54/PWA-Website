@@ -5,6 +5,9 @@ h1{
 a:hover {
   text-decoration: line-through;
 }
+.enable-notifications{
+  display: none;
+}
 
 @media screen and (max-width: 680px) {
   .description {
