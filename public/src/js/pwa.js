@@ -9,6 +9,7 @@ var captureButton = document.querySelector("#capture-btn");
 var closeButton = document.querySelector("#close-btn");
 
 installButton.addEventListener("click", installButtonClickHandler);
+
 function installButtonClickHandler() {
   if (deferredPrompt) {
     deferredPrompt.prompt();

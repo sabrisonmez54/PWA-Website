@@ -9,6 +9,7 @@ function showUpdateBar() {
 // The click event on the pop up notification
 document.getElementById("reload").addEventListener("click", function () {
   newWorker.postMessage({ action: "skipWaiting" });
+  location.reload(true);
 });
 
 if ("serviceWorker" in navigator) {
