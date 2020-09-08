@@ -40,6 +40,7 @@ var STATIC_FILES = [
   "/src/css/app.css",
   "/src/css/feed.css",
   "/src/css/oldStyles.css",
+  "/src/css/mobile.css",
   "/src/images/swiftLogo.jpg",
   "/src/images/StrongArm_Logo.jpg",
   "src/images/bmw-logo-light.svg",
