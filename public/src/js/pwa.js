@@ -7,7 +7,7 @@ var videoPlayer = document.querySelector("#player");
 var canvasElement = document.querySelector("#canvas");
 var captureButton = document.querySelector("#capture-btn");
 var closeButton = document.querySelector("#close-btn");
-
+let swRegistration = null;
 installButton.addEventListener("click", installButtonClickHandler);
 
 function installButtonClickHandler() {
@@ -28,20 +28,24 @@ function installButtonClickHandler() {
   }
 }
 
-function displayConfirmNotification() {
-  var options = {
-    body: "I am the notification that you triggered!",
-  };
-  new Notification("Hi There", options);
-}
 
 function askForNotificationPermission() {
   Notification.requestPermission(function (result) {
-    //console.log("User Choice", result);
+    // console.log("User Choice", result);
     if (result !== "granted") {
       console.log("No notification permission granted!");
     } else {
-      displayConfirmNotification();
+      navigator.serviceWorker.getRegistration().then(function(reg) {
+        var options = {
+          body: 'I am the notification that you triggered!!',
+          vibrate: [100, 50, 100],
+          data: {
+            dateOfArrival: Date.now(),
+            primaryKey: 1
+          }
+        };
+        reg.showNotification('Hi There', options);
+      });
     }
   });
 }

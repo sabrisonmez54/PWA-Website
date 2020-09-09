@@ -41,7 +41,7 @@ var STATIC_FILES = [
   "/src/css/feed.css",
   "/src/css/oldStyles.css",
   "/src/css/mobile.css",
-  "/src/images/swiftLogo.jpg",
+  "/src/images/Swift_logo_with_text.svg",
   "/src/images/StrongArm_Logo.jpg",
   "src/images/bmw-logo-light.svg",
   "https://fonts.googleapis.com/icon?family=Material+Icons",

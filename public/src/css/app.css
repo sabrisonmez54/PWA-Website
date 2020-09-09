@@ -56,7 +56,7 @@ a:hover {
     text-align: start;
     padding: 0;
   }
-  
+}
 .description {
   max-width: 50%;
   padding: 50px;
@@ -107,12 +107,16 @@ body {
 
   /* Set a specific height */
   height: 35%;
-
+z-index: 0;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 /* Place text in the middle of the image */
@@ -126,6 +130,11 @@ body {
 }
 body,
 html {
+  height: 100%;
+
+  font-family: "Open Sans", sans-serif;
+
+
   margin: 0;
 }
 
@@ -292,6 +301,7 @@ footer::after {
 }
 .gooey-text{
   font-family: 'open Sans', sans-serif; 
+  font-size:36px;
   position:relative; z-index: 1;  padding: 15px;  right: 0;
   left: 0;
   top: 59px;
@@ -310,7 +320,7 @@ footer::after {
     font-size:20px;
   }
 }
-}
+
 
 footer .ball {
   width: 100px;
