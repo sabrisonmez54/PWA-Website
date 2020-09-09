@@ -10,6 +10,7 @@ a:hover {
 body {
   background-color: #fff;
   overflow: hidden;
+  font-family: "Open Sans";
 }
 .mdl-layout__header-row {
   color: black;
