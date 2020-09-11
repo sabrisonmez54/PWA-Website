@@ -13,6 +13,7 @@ document.getElementById("reload").addEventListener("click", function () {
 });
 
 if ("serviceWorker" in navigator) {
+  console.log("registering sw")
   navigator.serviceWorker.register("/sw.js").then((reg) => {
     reg.addEventListener("updatefound", () => {
       // A wild service worker has appeared in reg.installing!
