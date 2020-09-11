@@ -30,6 +30,7 @@ var CACHE_DYNAMIC_NAME = "dynamic-v2";
 var STATIC_FILES = [
   "/",
   "/index.html",
+  "/resume.html",
   "/src/js/app.js",
   "/src/js/pwa.js",
   "/src/js/feed.js",

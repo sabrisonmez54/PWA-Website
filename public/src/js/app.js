@@ -36,13 +36,33 @@ if ("serviceWorker" in navigator) {
     });
   });
 
-  let refreshing;
-  navigator.serviceWorker.addEventListener("controllerchange", function () {
-    if (refreshing) return;
-    window.location.reload();
-    refreshing = true;
-  });
+  // let refreshing;
+  // navigator.serviceWorker.addEventListener("controllerchange", function () {
+  //   if (refreshing) return;
+  //   window.location.reload();
+  //   refreshing = true;
+  // });
+  async function handleUpdate() {
+    if ("serviceWorker"in navigator) {
+      let refreshing;
+
+      const oldSw = (await navigator.serviceWorker.getRegistration())?.active?.state;
+
+      navigator.serviceWorker.addEventListener('controllerchange', async () => {
+        if (refreshing) return;
+
+        const newSw = (await navigator.serviceWorker.getRegistration())?.active?.state;
+
+        if(oldSw === 'activated' && newSw === 'activating') {
+          refreshing = true;
+          window.location.reload();
+        }
+      });
+    }
+  }
+  handleUpdate();
 }
+
 if (!window.Promise) {
   window.Promise = Promise;
 }
