@@ -1,6 +1,6 @@
 /* Smartphones */
 
-@media (max-width: 680px) {
+@media (max-width: 980px) {
   #wrapper {
     margin-top: 0;
   }
@@ -56,24 +56,24 @@
     width: 95%;
   }
   .inner-container {
-    width: 110%;
-    margin-left: -50;
+    width: 100%;
+ 
     flex-direction: column;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
   .inner-container2 {
-    margin-left: -50;
+ 
     margin-top: 5%;
     flex-direction: column;
-    width: 120%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-content: left;
   }
   .inner-container3 {
-    width: 110%;
+    width: 100%;
     margin-left: 0;
     flex-direction: column;
     display: flex;
@@ -84,18 +84,20 @@
     margin-left: 0;
     margin-top: 5%;
     flex-direction: column;
-    width: 120%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-content: left;
   }
   .projectDesc {
-    
-    width: 110%;
+    text-align: left;
+    width: 100%;
   }
+
+
   .container {
     margin-left: 0;
-    width: 75%;
+    width: 100%;
   }
   .who-text {
     background: transparent;
@@ -105,25 +107,25 @@
   }
   .gif1 {
     width: 100%;
-    margin-left: -50;
+   
   }
   .gif {
-    margin-left: -50;
+   
     width: 100%;
   }
   .grid-1 {
     width: 16.6666666%;
   }
   .grid-2 {
-    margin-left: -30;
+    
     width: 100%;
   }
   .grid-3 {
     width: 100%;
   }
   .grid-4 {
-    margin-left: -60;
-    width: 110%;
+    
+    width: 100%;
   }
   .grid-5 {
     margin-left: -70;
@@ -138,7 +140,7 @@
   }
   .experience h2,
   .experience p {
-    margin-left: -30;
+    
     margin-right: 0;
     width: 100%;
     text-align: left;
@@ -148,7 +150,7 @@
   }
   .center {
     width: 100%;
-    margin-left: -60;
+    
   }
   
 }
