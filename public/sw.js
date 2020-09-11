@@ -31,7 +31,6 @@ var STATIC_FILES = [
   "/",
   "/index.html",
   "/src/js/app.js",
-  "/src/js/kube.min.js",
   "/src/js/pwa.js",
   "/src/js/feed.js",
   "/src/css/grid.css",
@@ -43,6 +42,8 @@ var STATIC_FILES = [
   "/src/images/Swift_logo_with_text.svg",
   "/src/images/StrongArm_Logo.jpg",
   "src/images/bmw-logo-light.svg",
+  "src/images/elektra_logo.png",
+  "src/images/Java_logo_icon.png",
   "https://fonts.googleapis.com/icon?family=Material+Icons",
   "https://webdev.imgix.net/images/collections/pwa.svg",
   "https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css"
