@@ -31,14 +31,13 @@ var STATIC_FILES = [
   "/",
   "/index.html",
   "/src/js/app.js",
-  "/src/js/footer.js",
+  "/src/js/kube.min.js",
   "/src/js/pwa.js",
   "/src/js/feed.js",
   "/src/css/grid.css",
   "/src/css/card.css",
   "/src/js/material.min.js",
   "/src/css/app.css",
-  "/src/css/feed.css",
   "/src/css/oldStyles.css",
   "/src/css/mobile.css",
   "/src/images/Swift_logo_with_text.svg",
@@ -46,6 +45,7 @@ var STATIC_FILES = [
   "src/images/bmw-logo-light.svg",
   "https://fonts.googleapis.com/icon?family=Material+Icons",
   "https://webdev.imgix.net/images/collections/pwa.svg",
+  "https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css"
 ];
 self.addEventListener("install", function (event) {
   console.log("[Service Worker] Installing Service Worker ...", event);
