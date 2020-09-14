@@ -37,6 +37,7 @@ var STATIC_FILES = [
   "/src/css/grid.css",
   "/src/css/card.css",
   "/src/js/material.js",
+  "/src/js/jquery.min.js",
   "/src/css/app.css",
   "/src/css/oldStyles.css",
   "/src/css/mobile.css",
