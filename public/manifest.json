@@ -40,7 +40,7 @@
   "display": "standalone",
   "orientation": "portrait-primary",
   "theme_color": "#00897b",
-  "background_color": "#b2b2b2",
+  "background_color": "#fff",
   "description": "An online e-portfolio displaying my skills and experience, implementing a lot of PWA love.",
   "dir": "ltr",
   "lang": "en-US"
