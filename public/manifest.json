@@ -9,12 +9,12 @@
       "purpose": "any maskable"
     },
     {
-      "src": "/src/images/icons/android-launchericon-48x48.png",
+      "src": "/src/images/icons/android-icon-48x48.png",
       "type": "image/png",
       "sizes": "48x48"
     },
     {
-      "src": "/src/images/icons/android-launchericon-96x96.png",
+      "src": "/src/images/icons/android-icon-96x96.png",
       "type": "image/png",
       "sizes": "96x96"
     },
@@ -39,8 +39,8 @@
   "scope": ".",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "theme_color": "#00897b",
-  "background_color": "#fff",
+  "theme_color": "#f6f4f9",
+  "background_color": "#f6f4f9",
   "description": "An online e-portfolio displaying my skills and experience, implementing a lot of PWA love.",
   "dir": "ltr",
   "lang": "en-US"

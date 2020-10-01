@@ -46,6 +46,7 @@ var STATIC_FILES = [
   "/src/images/Swift_logo_with_text.svg",
   "/src/images/icons/android-icon-144x144.png",
   "/src/images/icons/android-icon-96x96.png",
+  "/src/images/logo.png",
   "/src/images/StrongArm_Logo.jpg",
   "src/images/bmw-logo-light.svg",
   "src/images/elektra_logo.png",
