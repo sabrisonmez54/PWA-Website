@@ -75,6 +75,7 @@ body {
   /* Position and center the image to scale nicely on all screens */
   background-repeat: no-repeat;
   background-size: cover;
+  
   position: relative;
   background-position: 40% 0;
   flex: 1;
