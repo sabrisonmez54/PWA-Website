@@ -49,6 +49,8 @@ var STATIC_FILES = [
   "/src/images/logo.png",
   "/src/images/StrongArm_Logo.jpg",
   "src/images/bmw-logo-light.svg",
+  "src/images/cfDiagram.png",
+  "src/images/bmwtestingmap.png",
   "src/images/elektra_logo.png",
   "src/images/Java_logo_icon.png",
   "src/images/react-logo.svg",
