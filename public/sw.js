@@ -28,9 +28,9 @@ var CACHE_DYNAMIC_NAME = "dynamic-v2";
 //   );
 // });
 var STATIC_FILES = [
-  "/",
-  "/index.html",
-  "/resume.html",
+  // "/",
+  // "/index.html",
+  // "/resume.html",
   "/help.html",
   "/src/js/app.js",
   "/src/js/pwa.js",
@@ -48,7 +48,7 @@ var STATIC_FILES = [
   "/src/images/icons/android-icon-96x96.png",
   "/src/images/StrongArm_Logo.jpg",
   "src/images/bmw-logo-light.svg",
-  "src/images/cfDiagram.png",
+  // "src/images/cfDiagram.png",
   "src/images/bmwtestingmap.png",
   "src/images/elektra_logo.png",
   "src/images/Java_logo_icon.png",
