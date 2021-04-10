@@ -48,7 +48,7 @@ var STATIC_FILES = [
   "/src/images/icons/android-icon-96x96.png",
   "/src/images/StrongArm_Logo.jpg",
   "src/images/bmw-logo-light.svg",
-  // "src/images/cfDiagram.png",
+  "src/images/cfDiagram.png",
   "src/images/bmwtestingmap.png",
   "src/images/elektra_logo.png",
   "src/images/Java_logo_icon.png",

@@ -19,7 +19,14 @@ var java = document.querySelector('#java')
 java.addEventListener('click', javaClick)
 var echoar = document.querySelector('#echoar')
 echoar.addEventListener('click', echoarClick)
+var pollen = document.querySelector('#pollen')
+pollen.addEventListener('click', pollenClick)
 
+function pollenClick() {
+    window.location.href = "https://apps.apple.com/us/app/pollen-ny/id1560929942#?platform=iphone";
+    
+    //openCreatePostModal()
+}
 
 function pwaClick() {
 
