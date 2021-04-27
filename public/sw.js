@@ -53,6 +53,7 @@ var STATIC_FILES = [
   "src/images/elektra_logo.png",
   "src/images/Java_logo_icon.png",
   "src/images/react-logo.svg",
+  "src/images/pollen.ny-logo 2/cover.png",
   "https://fonts.googleapis.com/icon?family=Material+Icons",
   "https://webdev.imgix.net/images/collections/pwa.svg",
   "https://cdnjs.cloudflare.com/ajax/libs/material-design-lite/1.3.0/material.indigo-pink.min.css",
